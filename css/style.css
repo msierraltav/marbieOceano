@@ -620,8 +620,101 @@ footer li {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
 }
 
-.laordenimg {
+
+/* SECCIÓN EVENTOS */
+.eventos {
+    width: 77%;
+    margin-left: 12%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.event-card {
+    width: 100%;
+    min-height: 450px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+
+.event-img-right {
+    flex-direction: row;
+}
+
+.event-img-left {
+    flex-direction: row;
+}
+
+.event-content {
+    width: 50%;
+    background-image: url(../img/fondopergamino.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 60px 50px;
+    position: relative;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-content h2 {
+    font-family: "Sedan SC", serif;
+    font-size: 3rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 900;
+}
+
+.event-content p {
+    font-family: "Neuton", serif;
+    font-size: 1.3rem;
+    color: #000000;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.button-event {
+    text-align: center;
+}
+
+.button-event a {
+    font-family: "Sedan SC", serif;
+    font-size: 1.5rem;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 12px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 800;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.button-event a:hover {
+    background-color: #f4c86f;
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.event-image {
+    width: 45%;
+    position: relative;
+}
+
+.event-image img {
     width: 100%;
     height: auto;
-    display: block;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
 }
