@@ -451,11 +451,69 @@ footer li {
 }
 
 .laorden {
-    height: 4%;
-    margin-top: 3%;
-    background-position: center center;
-    background-size: contain;
-    background-image: url(../../dicerollweb/img/bannersitolaorden.png);
+    display: grid;
+    place-items: center;
+    margin-top: 8%;
+}
+
+.laorden-image,
+.laorden-texto {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+}
+
+.laorden-image {
+    width: 100%;
+}
+
+.laorden-texto {
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.laorden-texto h2 {
+    font-family: "Sedan SC", serif;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.laorden-texto p {
+    font-family: "Neuton", serif;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.btn-laorden {
+    font-family: "Sedan SC", serif;
+    font-size: 1.5rem;
+    color: #0c0e19;
+    background-color: #f0f0f0;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 800;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn-laorden:hover {
+    background-color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.laordenimg {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 .listaheader {
     margin-top: 3%;
@@ -560,4 +618,10 @@ footer li {
 .catalogo-item:hover img {
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+.laordenimg {
+    width: 100%;
+    height: auto;
+    display: block;
 }
