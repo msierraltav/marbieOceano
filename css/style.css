@@ -1,0 +1,548 @@
+@charset "utf-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    font-family: "Neuton", serif;
+}
+.contenedor {
+    position: relative;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 4%;
+    position: absolute;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/headeragina2.png);
+    visibility: visible;
+    top: -0.5%;
+}
+
+.logo {
+    width: 13%;
+    height: 43%;
+    position: absolute;
+    top: 26%;
+    left: 8%;
+    background-image: url(../img/blanco%20logo.png);
+    background-position: center center;
+    background-size: contain;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Sedan SC", serif;
+    text-transform: none;
+    color: #ffffff;
+    text-shadow: 1px 1px 7px #000000;
+    text-align: right;
+    border-radius: 9px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 77%;
+    margin-left: 21%;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    height: 24%;
+    font-size: 783%;
+    margin-top: 0%;
+}
+.slider {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/fondoweb.png);
+    height: 282vmax;
+}
+
+.balazo {
+    margin-top: 0%;
+    padding-top: 32%;
+    width: 100%;
+    height: 100vh;
+    background-image: url(url);
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    padding-left: 48px;
+}
+.balazo p {
+    font-family: "Neuton", serif;
+    width: 38%;
+    margin-left: 59%;
+    color: #ffffff;
+    border-bottom-left-radius: 41px;
+    border-top-left-radius: 41px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0 0;
+    box-shadow: 0 0;
+    font-weight: 500;
+    font-size: 216%;
+    font-style: normal;
+    border-bottom-right-radius: 0px;
+    text-align: right;
+    margin-bottom: -1%;
+}
+.boton {
+    width: 26%;
+    height: 14%;
+    margin-top: 2.5%;
+    margin-left: 74%;
+    text-align: left;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(12, 14, 25, 1);
+    box-shadow: 0px 0px 10px 2px rgba(12, 14, 25, 1);
+    background-color: rgba(155, 155, 52, 1);
+    margin-bottom: 17%;
+    padding-top: 0.5%;
+    border-bottom-left-radius: 79px;
+    border-top-left-radius: 79px;
+    border-bottom-right-radius: 0px;
+    padding-left: 2%;
+}
+.boton a {
+    text-decoration: none;
+    font-weight: 900;
+    color: rgba(12, 14, 25, 1);
+    font-size: 190%;
+    text-align: left;
+    font-family: "Sedan SC", serif;
+    font-style: normal;
+    font-variant: normal;
+}
+footer {
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    height: 183px;
+    background-color: rgba(13, 14, 25, 1);
+    margin-left: 0px;
+    padding-left: 13%;
+}
+footer h1 {
+    font-size: x-large;
+    padding-left: 0px;
+    margin-left: 3%;
+    border-radius: 0px;
+    text-align: left;
+    font-family: "Sedan SC", serif;
+    font-style: italic;
+    font-weight: 500;
+    width: 85%;
+    margin-bottom: 2%;
+}
+footer ul {
+    margin-left: 3%;
+    margin-top: 1%;
+}
+footer li {
+    color: rgba(244, 200, 111, 1);
+    font-family: "Neuton", serif;
+}
+.col-01 {
+    width: 30%;
+    float: left;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+.col-02 {
+    width: 30%;
+    padding: 1%;
+    float: left;
+}
+
+.redes {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.logofooter {
+    padding-left: 0px;
+    margin-left: 93px;
+}
+.aboutus {
+    padding-top: 6%;
+    position: relative;
+}
+
+.aboutus-container {
+    width: 77%;
+    margin-left: 12%;
+    min-height: 67vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.fyran {
+    position: absolute;
+    left: -5%;
+    top: 10%;
+    width: 60%;
+    z-index: 1;
+}
+
+.fyran img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.tabladerecha {
+    width: 55%;
+    margin-left: 45%;
+    position: relative;
+    z-index: 2;
+    padding-left: 2%;
+}
+
+.quiensomos {
+    width: 36%;
+    font-family: "Sedan SC", serif;
+    font-size: 706%;
+    text-align: center;
+    margin-left: 21%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    text-shadow: 0px 0px 6px rgba(79, 26, 5, 0.8);
+}
+.slogan {
+    font-family: "Neuton", serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: justify;
+    font-weight: 500;
+    width: 68%;
+    margin-left: 21%;
+    margin-bottom: 2%;
+    text-shadow: 0px 0px 1px rgba(79, 26, 5, 0.8);
+}
+
+.iconocatalogo {
+    margin-left: 13%;
+    margin-top: 12%;
+    text-align: center;
+    width: 77%;
+}
+.queofrecemos {
+    font-size: 216%;
+    font-family: "Sedan SC", serif;
+    font-weight: 600;
+    margin-bottom: 7%;
+    font-style: normal;
+    margin-top: 3%;
+    text-shadow: 0px 0px;
+    width: 53%;
+    background-color: rgba(155, 155, 52, 1);
+    border-bottom-left-radius: 52px;
+    border-top-left-radius: 52px;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 11px;
+    margin-left: 62.9%;
+    border-bottom-right-radius: 0px;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.catalogo {
+    width: 16%;
+    height: 14%;
+    display: inline-block;
+    margin-top: 0%;
+}
+.queofrecemos2 {
+    font-size: 216%;
+    font-family: "Sedan SC", serif;
+    font-weight: 600;
+    margin-bottom: 3%;
+    font-style: normal;
+    margin-top: 7%;
+    text-shadow: 0px 0px;
+    width: 56%;
+    background-color: rgba(155, 155, 52, 1);
+    border-bottom-right-radius: 52px;
+    border-top-right-radius: 52px;
+    padding-top: 6px;
+    padding-right: 20px;
+    padding-bottom: 11px;
+    padding-left: 6px;
+    margin-left: -14%;
+    border-top-left-radius: 0px;
+    text-align: right;
+    -webkit-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.59);
+    box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.59);
+}
+.producto {
+    width: 17%;
+    height: 15%;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border-left: thick none rgba(244, 217, 124, 1);
+    border-right: thick none rgba(244, 217, 124, 1);
+    border-bottom: 30px solid rgba(244, 217, 124, 1);
+    border-top: thick none rgba(244, 217, 124, 1);
+    margin-left: -12px;
+}
+
+.laorden {
+    height: 4%;
+    margin-top: 3%;
+    background-position: center center;
+    background-size: contain;
+    background-image: url(../../dicerollweb/img/bannersitolaorden.png);
+}
+.listaheader {
+    margin-top: 3%;
+    width: 35%;
+    margin-left: 62%;
+}
+.listabtn {
+    width: 32%;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.btnheader {
+    text-align: center;
+}
+.btnheader a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    text-align: center;
+    font-family: "Sedan SC", serif;
+    font-size: x-large;
+    font-weight: 600;
+}
+.menu {
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.menu h2 {
+    font-family: "Poppins", serif;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.menu-grid {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 300px;
+    background-color: rgba(13, 14, 25, 1);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.menu-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-family: "Sedan SC", serif;
+    font-weight: 600;
+    color: rgba(244, 200, 111, 1);
+}
+
+.menu-item p {
+    font-size: 0.95rem;
+    line-height: 1.4em;
+    font-family: "Sedan SC", serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+.catalogo-grid {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    gap: 25px;
+    width: 70%;
+    margin: 30px auto;
+}
+
+.catalogo-item {
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.catalogo-item img {
+    width: 82%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    height: 100%;
+}
+
+/* HOVER IGUAL QUE LOS PRODUCTOS DESTACADOS */
+.catalogo-item:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
